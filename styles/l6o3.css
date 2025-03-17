@@ -1,0 +1,25 @@
+/* First we do global styles
+   Then we do the header and footer specific styles
+   Then we do education specific styles
+ */
+
+/* Global */
+body {font-family: Helvetica, sans-serif;}
+a {color: #EF233C}
+h1, h2 {font-weight: 400}
+h1 {font-size: 80px}
+h2{font-size: 40px}
+/*Header & Footer*/
+header,
+footer {background: #2B2D42;
+        color: #8D99AE;
+        padding: 30px}
+header h1,
+header h2 {color: #EDF2F4}
+header {margin-bottom: 15px}
+footer {margin-top: 15px;}
+/*Body*/
+.education {background: #8D99AE;
+            padding: 30px}
+
+

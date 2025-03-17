@@ -1,3 +1,8 @@
 h3 + ul {margin-top: -3mm}
-.list_color_1{color: darkgreen}
-.list_color_2{color: darkmagenta}
+.list_color_1, li.list_color_1 a{color: darkgreen}
+li.list_color_2 a{color: darkmagenta}
+body {font-family: verdana, arial, helvetica, sans-serif;
+        font-size: 62.5%}
+li {font-family: verdana, arial, helvetica, sans-serif;
+        font-size: 1.4em}
+li.list_color_1 {font-size: 1.8em}
