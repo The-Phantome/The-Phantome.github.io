@@ -1,5 +1,5 @@
 body {font-family: Verdana; Font-size: 1.1em; background-color: silver; color:darkblue}
 h1 {font-variant: all-small-caps; background-color: red}
-a:hover {border: 1px green dashed;}
-a:hover::after{content:" haha"}
+.linkies:hover {border: 1px green dashed;}
+.linkies:hover::after{content:" haha"}
 .stippeltjesrand {border: 1px dotted red}

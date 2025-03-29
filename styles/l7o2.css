@@ -1,0 +1,89 @@
+.tablegrid {
+    border-collapse: collapse ;
+    text-align: left;
+    width: 100%;
+        }
+
+.container {
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    background: #fff;
+    overflow: hidden;
+    border: 1px solid #006699;
+    border-radius: 10px;
+        }
+
+.tablegrid  td, .datagrid  th {
+    padding: 3px 2px;
+        }
+
+.tablegrid  thead th {
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+
+    color:#FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+
+    padding-left: 5px;
+        }
+
+
+
+.tablegrid  tbody td {
+    color: #00557F;
+    border-left: 1px solid #E1EEF4;
+    font-size: 12px;
+
+    font-weight: normal;
+
+        }
+
+.tablegrid  tbody .alt td {
+    background: #E1EEF4;
+    color: #00557F;
+        }
+
+.tablegrid  tbody td:first-child { border-left: none; }
+
+.tablegrid  tbody tr:last-child td { border-bottom: none; }
+
+.tablegrid  tbody tr td:first-child, .tablegrid  thead tr th:first-child{
+    position: sticky;
+    z-index: 2;
+}
+
+.tablegrid  tfoot td div {
+    border-top: 1px solid #006699;
+    background: #E1EEF4;
+        }
+
+.tablegrid  tfoot td {
+    padding: 0;
+    font-size: 12px
+        }
+
+.tablegrid  tfoot td div{ padding: 2px; }
+
+.tablegrid  tfoot td ul {
+    margin: 0;
+    padding:0;
+    list-style: none;
+    text-align: right;
+        }
+
+.tablegrid  tfoot  li { display: inline; }
+
+.tablegrid  tfoot li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 8px;
+    margin: 1px;
+    color: #FFFFFF;
+    border: 1px solid #006699;
+    border-radius: 3px;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+     }
+
+.tablegrid  tfoot ul.active, .tablegrid tfoot ul a:hover { border-color: #00557F;
+    color: #FFFFFF;
+    background: none;
+    background-color:#006699;}
