@@ -6,3 +6,84 @@ body {font-family: verdana, arial, helvetica, sans-serif;
 li {font-family: verdana, arial, helvetica, sans-serif;
         font-size: 1.4em}
 li.list_color_1 {font-size: 1.8em}
+
+.o7titel {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        background: linear-gradient(to right, #a1a1a1, #484848);
+        padding-left: 5px;
+        height: 24px;
+        padding-top: 4px;
+        border-radius: 4px;
+}
+
+.opdracht7 li  {
+        width: 350px;
+        padding: 4px 8px;
+        margin: 3px;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 4px;
+        background: linear-gradient(to bottom, #006699 , #00557F );
+}
+.opdracht7 li:hover {
+        background: rgb(from #006699 r g b / 0.75) none;
+}
+.opdracht7 a {
+        color: white;
+        text-decoration: none;
+}
+.opdracht7 a:hover{
+        border-color: #00557F;
+        color: #c8c8c8;
+}
+
+.o8titel {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        text-transform: capitalize;
+        text-align: center;
+        color: white;
+        background: linear-gradient(to right, #878787, #444444);
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 5px;
+}
+
+.o8 {
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+}
+
+.opdracht8 {
+        list-style-type: none;
+        list-style-position: inside;
+        background: linear-gradient(to bottom, darksalmon, red);
+        border-radius: 6px;
+        padding-left: 0;
+        margin: 0;
+}
+.opdracht8 li {
+        width: 350px;
+        color: #FFFFFF;
+        background: linear-gradient(to bottom, #006699 , #00557F );
+        border: none;
+        border-radius: 4px;
+        padding: 4px 8px;
+        margin: 3px;
+}
+
+.opdracht8 li:hover {
+        background: rgb(from #006699 r g b / 0.52) none;
+}
+.opdracht8 a {
+        text-decoration: none;
+        color: white;
+}
+.opdracht8 a:hover{
+        color: #c8c8c8;
+        border-color: #00557F;
+}

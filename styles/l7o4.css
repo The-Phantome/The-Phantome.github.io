@@ -1,0 +1,43 @@
+.kalender table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: 32px;
+    margin-left: auto;
+    margin-right:auto;
+}
+.kalender thead tr{
+    /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+
+    color: black;
+    background-color: rgb(170,170,200);
+}
+
+.kalender tbody tr td{
+    color: black;
+    background-color: white;
+    border: 2px dotted black;
+    padding: 2px 4px;
+}
+.kalender tbody tr td:first-child, .kalender tbody tr td:last-child{
+    background-color: rgb(255,220,220);
+}
+.kalender tbody tr:first-child td {
+    color: rgb(200,190,240);
+    background-color: rgb(35,37,70);
+    border: 2px dotted rgb(200,190,240);
+}
+tbody tr td.event[data-date="2020-05-30"],
+tbody tr td.event[data-date="2020-07-01"],
+tbody tr td.event[data-date="2020-07-02"],
+tbody tr td.event[data-date="2020-07-03"]{
+    background-color: #b7b7b7;
+    color: #878787;
+}
+
+tbody tr td.event[data-date="2020-06-16"]{
+    background-color: rgb(250,120,120);
+}
+
+tbody tr td a{
+    color: #0000dd;
+}
