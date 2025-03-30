@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left , .right {
+    width: 48%;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding-left: 10px;
+
+}
+
+.left {
+    color: #2B2D42;
+}
+
+.right {
+    color: maroon;
+    margin-right: 15px;
+}
