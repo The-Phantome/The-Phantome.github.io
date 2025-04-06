@@ -1,0 +1,77 @@
+body{
+    width: 95%;
+    font: 1.2em Verdana, Arial, Helvetica;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+a {
+    color: black;
+}
+#main h1 {
+    color: #007e7e;
+    font-size: 150%;
+}
+#main h2 {
+    color: #007e7e;
+    font-size: 120%;
+}
+
+#weekly {
+    border: 1px solid #007e7e;
+    padding: 2%;
+    text-align: center;
+    background: url("../labo.8/images/cocktail.gif") repeat-x;
+    width: 30%;
+    float: right;
+    line-height: 1;
+    box-sizing: border-box;
+}
+#main {
+    width:70%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 8px;
+}
+#weekly h2:nth-of-type(1){
+    color: red;
+}
+#weekly h2:nth-of-type(2){
+    color: #b10000;
+}
+#weekly h2:nth-of-type(3){
+    color: #760000;
+}
+#weekly a:hover {
+    background-color: saddlebrown;
+    color: whitesmoke;
+}
+
+
+#guarantee {
+    font-family: georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    color: #444444;
+    border: 1px dashed white;
+    background: url("../labo.8/images/background.gif") no-repeat top left;
+    background-color: #a7cece;
+    margin: 30px;
+    padding: 20px 20px 20px 80px;
+}
+#guarantee a {
+    color: #444444;
+}
+ul li:first-of-type {
+    font-weight: bold;
+}
+#buddha {
+    font-style: italic;
+    font-weight: normal;
+}
+
+footer {
+    font-size: 50%;
+    text-align: center;
+    clear: both;
+}
