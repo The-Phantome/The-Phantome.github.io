@@ -1,0 +1,15 @@
+.bg, .bg-alt{
+
+    height: 125px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+}
+.bg {
+    background: #878787;
+}
+.bg-alt {
+    background: #444444;
+}
