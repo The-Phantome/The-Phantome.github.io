@@ -73,10 +73,15 @@ body {
     padding-bottom: 0.5rem;
 }
                                         /* Developer information styling */
+.dev_info table {
+    width: 100%;
+}
+
 .dev_info table td, .dev_info table th {
     text-align: left;
     border-bottom: 1px dotted #aaa;
     padding: 0.2em 1em 0.2em 1em;
+
 }
 .dev_info .dev_info_source td {
     text-align: right;
